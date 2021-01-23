@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-clock" width="26" height="26" data-name="icon-clock" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-2{fill:#fe5244;stroke:#fe5244;stroke-width:.8px}
+        </style>
+    </defs>
+    <path id="Rectangle_85" fill="none" d="M0 0H26V26H0z" data-name="Rectangle 85"/>
+    <g id="time_1_" data-name="time (1)" transform="translate(1 1)">
+        <path id="Path_2036" d="M12 0a12 12 0 1 0 12 12A12.014 12.014 0 0 0 12 0zm0 23.2A11.2 11.2 0 1 1 23.2 12 11.213 11.213 0 0 1 12 23.2z" class="cls-2" data-name="Path 2036"/>
+        <path id="Path_2037" d="M20.239 6a.4.4 0 0 0-.426.38v8.738h-6.387a.382.382 0 1 0 0 .76h6.814a.4.4 0 0 0 .426-.38V6.38a.4.4 0 0 0-.427-.38z" class="cls-2" data-name="Path 2037" transform="translate(-8.665 -2.166)"/>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+/*_clients.scss*/
+
+.clients {
+padding-bottom: 200px;
+	&__wrap{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__logo  {
+		width: 170px;
+		height: 129px;
+	}
+}
+

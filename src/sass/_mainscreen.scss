@@ -1,0 +1,60 @@
+/*_main.scss*/
+
+.mainscreen {
+	margin: 90px 0  200px 0;
+	&__wrap{
+		display: flex;
+	}
+	&__text{
+		  width: 283px;
+		  margin: 0 0 36px 45px;
+		  font-family: OpenSans;
+		  line-height: 1.33;
+		  letter-spacing: normal;
+		  color: #313131;
+		  position: relative;
+		  &::before{
+		  	content: "";
+		  	display: block;
+		  	background-image: url('../img/icon/icon-clock.svg');
+		  	width: 26px;
+		  	height: 26px;
+		  	position: absolute;
+		  	top: 50%;
+		  	margin-left: -45px;
+		  	transform: translateY(-50%);
+		  }
+		  &-tittle{
+		  	width: 510px;
+		  	margin: 0 0 23px;
+		  	font-family: Montserrat;
+		  	font-size: 55px;
+		  	font-weight: bold;
+		  	line-height: 1.2;
+		  	color: #282828;
+		  }
+	}
+	&__btn {
+		width: 270px;
+		height: 61px;
+		margin: 36px 240px 0 0;
+		padding: 20px 31px 21px 30px;
+		border-radius: 3px;
+		background-color: #ffcf2d;
+
+		font-family: OpenSans;
+		font-size: 15px;
+		font-weight: 600;
+		font-stretch: normal;
+		line-height: 1.73;
+		color: #282828;
+	}
+	&__img {
+		max-width: 599px;
+		max-height: 460px;
+		margin-left: 61px;
+		object-fit: contain;
+	}
+}
+
+

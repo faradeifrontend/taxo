@@ -1,0 +1,31 @@
+/*_banner.scss*/
+
+.banner {
+	margin-bottom: 200px;
+}
+.banner__block {
+	height: 353px;
+	padding: 72px 70px;
+	border-radius: 18px;
+	background-color: #f3f5fa;
+	display: flex;
+	justify-content: space-between;
+	&-tittle {
+		width: 84px;
+		height: 25px;
+		margin: 10px 0 20px 0;
+		font-family: Montserrat;
+		font-size: 21px;
+		font-weight: 600;
+		line-height: 2.24;
+		color: #282828;
+			}
+	&-text {
+		width: 259px;
+		height: 103px;
+		font-family: OpenSans;
+		font-size: 14px;
+		line-height: 1.5;
+		color: #6d6d6d;
+			}
+		}

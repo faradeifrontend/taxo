@@ -1,0 +1,65 @@
+/*_conditions.scss*/
+
+.conditions {
+	padding: 200px 0;
+	&__title{
+		font-family: Montserrat;
+		font-size: 42px;
+		font-weight: bold;
+		line-height: 1.5;
+		text-align: center;
+		color: #282828;
+		margin-bottom: 80px;
+	}
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__block {
+		width: 270px;
+		height: 318px;
+		padding: 65px 35px 68px 35px;
+		border-radius: 10px;
+		background-color: #f3f5fa;
+		&-tittle {
+			margin: 25px 64px 15px 0;
+			font-family: Montserrat;
+			font-size: 21px;
+			font-weight: 600;
+			color: #282828;
+		}
+		&-text {
+			font-family: OpenSans;
+			font-size: 14px;
+			line-height: 1.57;
+			color: #4d4c4c;
+		}
+	}
+
+
+}
+
+
+.top-line {
+	position: relative;
+	&-first:before {
+		background-color: #fe5244;
+	}
+	&-second:before {
+		background-color: #1588eb;
+	}
+	&-third:before {
+		background-color: #ffcf2d;
+	}
+	&-fourth:before {
+		background-color: #9a3b82;
+	}
+  &:before {
+  	content: '';
+  	position: absolute;
+  	height: 2px;
+ 	 	border-radius: 7px;
+ 	 	width: 127px;
+  	top: 0;
+  }
+}

@@ -1,0 +1,30 @@
+/*_header.scss*/
+
+
+.header__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.logo a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 88px;
+	height: 45px;
+}
+
+.menu {
+	display: flex;
+	&__item {
+		  font-family: Montserrat;
+		  font-weight: 500;
+		  font-stretch: normal;
+		  font-style: normal;
+			line-height: 19px;
+		  color: #6a6969;
+		  margin-left: 45px;
+	}
+}

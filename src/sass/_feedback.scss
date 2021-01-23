@@ -1,0 +1,129 @@
+/*_feadback.scss*/
+
+.feedback {
+	padding-bottom: 120px;
+	&__title {
+		font-family: Montserrat;
+		font-size: 42px;
+		font-weight: bold;
+		line-height: 1.5;
+		text-align: center;
+		color: #000000;
+		margin-bottom: 45px;
+	}
+	&__img{
+		&-left{
+			display: flex;
+		}
+		&-right{
+			align-items: flex-end;
+			display: flex;
+		}
+	}
+	&__wrap {
+		display: flex;
+	}
+	&__top{
+		display: flex;
+		justify-content: space-between;
+		margin-left: 30px;
+	}
+	&__text {
+		margin-bottom: 7px;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-weight: 600;
+		color: #282828;
+	}
+	&__input {
+		width: 270px;
+		height: 40px;
+		border-radius: 5px;
+		border: solid 1px #eeeeee;
+		margin-bottom: 20px;
+	}
+	&__label{
+		&-file {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 132px;
+			height: 32px;
+			margin: 11px 0 0;
+			padding: 8px 20px 7px;
+			border-radius: 5px;
+			font-family: OpenSans;
+			font-size: 12px;
+			text-align: center;
+			background-color: #f5f6f7;
+			color: #282828;
+			cursor: pointer;
+		}
+	}
+
+	&__file {
+		display: none;
+	}
+
+	&__info{
+		margin-left: 70px;
+		display: flex;
+		flex-direction: column;
+		&-title{
+			font-family: Montserrat;
+			font-size: 18px;
+			font-weight: 600;
+			color: #000000;
+			margin-bottom: 20px;
+		}
+		&-text{
+			font-family: Montserrat;
+			font-size: 15px;
+			line-height: 1.27;
+			color: #000000;
+			position: relative;
+			margin-bottom: 15px;
+			&::before{
+				content: "";
+				display: block;
+				width: 26px;
+				height: 26px;
+				position: absolute;
+				top: 50%;
+				margin-left: -36px;
+				transform: translateY(-50%);
+				background-size: cover;
+			}
+			&-city{
+				&::before{
+					background-image: url('../img/icon/feedback/Component 4 – 16.svg');
+				}
+			}
+			&-email{
+				&::before{
+					background-image: url('../img/icon/feedback/Component 4 – 18.svg');
+				}
+			}
+			&-tel{
+				&::before{
+					background-image: url('../img/icon/feedback/Component 4 – 17.svg');
+				}
+			}
+		}
+	}
+	&__btn{
+		width: 170px;
+		height: 40px;
+		margin: 148px 0 0 0;
+		border-radius: 3px;
+		background-color: #ffcf2d;
+		border: none;
+		font-family: OpenSans;
+		font-size: 15px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		text-align: center;
+		color: #282828;
+	}
+}

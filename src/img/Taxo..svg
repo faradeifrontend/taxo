@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="45" viewBox="0 0 88 45">
+    <defs>
+        <style>
+            .cls-2{fill:#ffcf2d;font-size:29px}
+        </style>
+    </defs>
+    <text id="Taxo." fill="#282828" font-family="Montserrat-Bold, Montserrat" font-size="37px" font-weight="700" letter-spacing="0.04em" transform="translate(0 36)">
+        <tspan x="0" y="0">T</tspan><tspan y="0" class="cls-2">a</tspan><tspan y="0" font-size="29px">x</tspan><tspan y="0" class="cls-2">o</tspan><tspan y="0" fill="#000" font-size="22px">.</tspan>
+    </text>
+</svg>

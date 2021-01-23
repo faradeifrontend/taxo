@@ -1,0 +1,29 @@
+body {
+	background-color: #fff;
+	font-size: 15px;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+@import 'header';
+@import 'mainscreen';
+@import 'banner';
+@import 'training';
+@import 'conditions';
+@import 'clients';
+@import 'feedback';

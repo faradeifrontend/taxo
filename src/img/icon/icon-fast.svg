@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="icon-fast" transform="translate(-75.793 -839.793)">
+        <rect id="Rectangle_5" width="51" height="51" fill="#1588eb" data-name="Rectangle 5" rx="25.5" transform="translate(75.793 839.793)"/>
+        <g id="_16-express" data-name="16-express" transform="translate(82.625 851.412)">
+            <g id="linear_color" data-name="linear color">
+                <path id="Path_2038" d="M166.923 12.835l.781-.782a.729.729 0 0 0-1.031-1.032l-.813.814a10.892 10.892 0 0 0-4.744-2.266V7.89h.729a.729.729 0 0 0 .729-.729V4.729a.729.729 0 0 0-.729-.729h-5.829a.729.729 0 0 0-.729.729v2.432a.729.729 0 0 0 .729.729h.729v1.679A10.892 10.892 0 0 0 152 11.835l-.813-.814a.729.729 0 1 0-1.03 1.032l.781.782a10.93 10.93 0 1 0 15.985 0zm-10.179-7.376h4.372v.973h-4.372zM158.2 7.89h1.457v1.484c-.241-.016-.484-.025-.729-.025s-.488.009-.729.025zm.729 21.882a9.482 9.482 0 1 1 9.471-9.482 9.488 9.488 0 0 1-9.47 9.482z" class="cls-2" data-name="Path 2038" transform="translate(-139.226 -4)"/>
+                <path id="Path_2039" d="M204.043 140a8.043 8.043 0 1 0 8.043 8.043 8.052 8.052 0 0 0-8.043-8.043zm6.54 7.312h-5.809V141.5a6.593 6.593 0 0 1 5.808 5.812zm-6.54 7.312a6.58 6.58 0 0 1-.731-13.12v6.54a.731.731 0 0 0 .731.731h6.54a6.59 6.59 0 0 1-6.54 5.848z" class="cls-2" data-name="Path 2039" transform="translate(-184.376 -131.78)"/>
+                <path id="Path_2040" d="M49.606 188h-4.875a.731.731 0 1 0 0 1.462h4.874a.731.731 0 1 0 0-1.462z" class="cls-2" data-name="Path 2040" transform="translate(-41.563 -176.817)"/>
+                <path id="Path_2041" d="M34.337 284.731a.731.731 0 0 0-.731-.731h-4.875a.731.731 0 1 0 0 1.462h4.874a.731.731 0 0 0 .732-.731z" class="cls-2" data-name="Path 2041" transform="translate(-26.538 -266.983)"/>
+                <path id="Path_2042" d="M64.143 332h-3.412a.731.731 0 1 0 0 1.462h3.412a.731.731 0 1 0 0-1.462z" class="cls-2" data-name="Path 2042" transform="translate(-56.588 -312.066)"/>
+                <path id="Path_2043" d="M11.8 236.731a.731.731 0 0 0-.731-.731H4.731a.731.731 0 1 0 0 1.462h6.337a.731.731 0 0 0 .732-.731z" class="cls-2" data-name="Path 2043" transform="translate(-4 -221.9)"/>
+            </g>
+        </g>
+    </g>
+</svg>

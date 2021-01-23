@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-bank_card" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_2596" data-name="Group 2596">
+        <rect id="Rectangle_5" width="65" height="65" fill="#ffcf2d" data-name="Rectangle 5" rx="32.5"/>
+    </g>
+    <g id="bank" transform="translate(17 17)">
+        <g id="Group_2599" data-name="Group 2599">
+            <path id="Path_4212" d="M73.768 271.6H66.3v5.62h7.468zm-1.374 4.253h-4.727v-2.879h4.726z" class="cls-2" data-name="Path 4212" transform="translate(-62.665 -254.605)"/>
+            <path id="Rectangle_187" d="M0 0H13.43V1.374H0z" class="cls-2" data-name="Rectangle 187" transform="translate(10.906 25.972)"/>
+            <path id="Path_4213" d="M39.854 11H18.187a3.169 3.169 0 0 0-3.133 3.135v9.325h-.92A3.169 3.169 0 0 0 11 26.6v13.27A3.169 3.169 0 0 0 14.133 43h22.326a3.183 3.183 0 0 0 3.133-3.2v-9.26h.274A3.183 3.183 0 0 0 43 27.34v-13.2A3.189 3.189 0 0 0 39.854 11zm-21.667 1.365h21.667a1.8 1.8 0 0 1 1.769 1.77V15.5h-25.2v-1.365a1.8 1.8 0 0 1 1.764-1.77zM38.222 39.8a1.8 1.8 0 0 1-1.769 1.77h-22.32a1.8 1.8 0 0 1-1.769-1.77V26.589a1.8 1.8 0 0 1 1.769-1.77h22.326a1.8 1.8 0 0 1 1.769 1.77V39.8zm1.632-10.619h-.274V26.6a3.169 3.169 0 0 0-3.133-3.135H16.418v-6.6h25.2v10.546a1.8 1.8 0 0 1-1.764 1.77z" class="cls-2" data-name="Path 4213" transform="translate(-11 -11)"/>
+        </g>
+    </g>
+</svg>
