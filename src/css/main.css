@@ -967,9 +967,16 @@ body {
   }
 
   .footer__social {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .footer__social-icon {
+    margin-right: 0;
   }
 }
 
