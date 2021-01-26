@@ -1,7 +1,7 @@
 /*_main.scss*/
 
 .mainscreen {
-	margin: 90px 0  200px 0;
+	padding: 90px 0  200px 0;
 	&__wrap{
 		display: flex;
 	}
@@ -15,7 +15,6 @@
 		  position: relative;
 		  &::before{
 		  	content: "";
-		  	display: block;
 		  	background-image: url('../img/icon/icon-clock.svg');
 		  	width: 26px;
 		  	height: 26px;
@@ -41,13 +40,13 @@
 		padding: 20px 31px 21px 30px;
 		border-radius: 3px;
 		background-color: #ffcf2d;
-
+		display: block;
 		font-family: OpenSans;
 		font-size: 15px;
 		font-weight: 600;
 		font-stretch: normal;
-		line-height: 1.73;
 		color: #282828;
+		text-align: center;
 	}
 	&__img {
 		max-width: 599px;
@@ -58,3 +57,44 @@
 }
 
 
+@media (max-width: 768px) {
+  .mainscreen {
+  		padding: 80px 0  80px 0;
+  	&__wrap {
+  		align-items: center;
+  		justify-content: center;
+  		text-align: center;
+  	}
+  	&__text {
+  		justify-content: center;
+  		margin: 0 auto;
+  	}
+  	&__img {
+  		display: none;
+  	}
+  	&__btn {
+  		margin: 0 auto;
+  		margin-top: 20px;
+  	}
+  }
+  }
+
+
+@media (max-width: 524px) {
+  .mainscreen {
+  	&__text {
+  		&-tittle {
+  			width: 100%;
+  			font-size: 40px;
+  		}
+  	}
+  }
+}
+
+@media (max-width: 320px) {
+  .mainscreen {
+  	&__text {
+  		width: 240px;
+  	}
+  }
+}

@@ -17,8 +17,7 @@
 		align-items: flex-end;
 	}
 	&__title{
-		height: 52px;
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 		font-family: Montserrat;
 		font-size: 42px;
 		font-weight: bold;
@@ -59,7 +58,6 @@
   	padding: 22px 93px 23px;
   	border-radius: 3px;
   	background-color: #ffcf2d;
-
   	height: 20px;
   	font-family: OpenSans;
   	font-size: 15px;
@@ -69,6 +67,7 @@
   	display: flex;
   	justify-content: center;
   	align-items: center;
+  	text-align: center;
   	&-wrap{
   		margin-top: 50px;
   		display: flex;
@@ -104,4 +103,49 @@ body {
 .training__program li::before {
   white-space: nowrap;
   padding-right: 5px;
+}
+
+ @media (max-width: 768px) {
+ 	.training{
+ 		&__img{
+ 			&-left{
+	 		display: none;
+ 			}
+ 			&-right{
+ 				display: none;
+ 			}
+ 		}
+ 		&__wrap {
+ 			justify-content: center;
+ 		}
+	}
+}
+
+
+
+@media (max-width: 320px) {
+  .training{
+  	&__title{
+  		width: 100%;
+  		margin-bottom: 80px;
+  		font-family: Montserrat;
+  		font-size: 42px;
+  		font-weight: bold;
+  		text-align: center;
+  		color: #000000;
+  	}
+  	&__program {
+  		&-wrap {
+  			width: 280px;
+  		}
+  		&-title{
+  			width: 280px;
+  		}
+  	}
+  		&__btn {
+  			width: 240px;
+  	  	font-size: 14px;
+  	  	line-height: 1.23;
+  		}
+  }
 }

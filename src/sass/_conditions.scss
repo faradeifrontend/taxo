@@ -63,3 +63,40 @@
   	top: 0;
   }
 }
+
+@media (max-width: 1014px) {
+	.conditions {
+		&__wrap {
+			flex-wrap: wrap;
+		}
+		&__block {
+			margin-bottom: 30px;
+			width: 48%;
+		}
+	}
+ }
+
+
+@media (max-width: 768px) {
+	.conditions {
+		padding: 140px 0;
+		&__title {
+			margin-bottom: 50px;
+		}
+	}
+ }
+
+@media (max-width: 320px) {
+	.conditions {
+		padding: 100px 0;
+		padding-bottom: 40px;
+
+		&__wrap {
+			flex-wrap: wrap;
+		}
+		&__block {
+			margin-bottom: 30px;
+			width: 100%;
+		}
+	}
+ }

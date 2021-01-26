@@ -20,9 +20,19 @@
 	<!-- header -->
 
 	<header class="header">
+
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		
 		<div class="container">
+
 			<div class="header__wrap">
+
 				<div class="logo"><a href="#"> <img src="img/Taxo..svg" alt="logo"> </a></div>
+
 				<nav class="navigation">
 					<ul class="menu">
 
@@ -52,8 +62,10 @@
 
 					</ul>
 				</nav>
+
 			</div>
 		</div>
+
 	</header>
 
 
@@ -85,7 +97,7 @@
 			<div class="banner__block">
 				<!-- .banner_block-item*3>img+h3.banner__block-tittle+p.banner__block-text -->
 
-				<div class="banner_block-item ">
+				<div class="banner__block-item ">
 					<img src="img/icon/icon-fast.svg" alt="">
 					<h3 class="banner__block-tittle">Быстро</h3>
 					<p class="banner__block-text">
@@ -97,7 +109,7 @@
          </p>
 				</div>
 
-				<div class="banner_block-item">
+				<div class="banner__block-item">
 					<img src="img/icon/icon-remotely.svg" alt="">
 					<h3 class="banner__block-tittle">Дистанционно</h3>
 					<p class="banner__block-text">
@@ -109,7 +121,7 @@
 					</p>
 				</div>
 
-				<div class="banner_block-item">
+				<div class="banner__block-item">
 					<img src="img/icon/icon-availble.svg" alt="">
 					<h3 class="banner__block-tittle">Доступно</h3>
 					<p class="banner__block-text">
@@ -250,25 +262,32 @@
 		<div class="container">
 			<h2 class="feedback__title">Обратная связь</h2>
 			<div class="feedback__wrap">
-				<div class="feedback__img-left">
-					<img src="img/feedback/man-feed_back_left.svg" alt="">
-				</div>
 
 				<form class="feedback__form" action="">
+
+					<div class="feedback__img-left">
+						<img src="img/feedback/man-feed_back_left.svg" alt="">
+					</div>
 					<div class="feedback__top">
 						<fieldset class="feedback__fieldset">
 
-							<p class="feedback__text">Email</p>
-							<label for="email" class="feedback__label"></label>
-							<input type="email" id="email" class="feedback__input">
+							
+							<label for="email" class="feedback__label">
+								<p class="feedback__text">Email</p>
+							</label>
+							<input required type="email" id="email" class="feedback__input">
 
-							<p class="feedback__text">Имя</p>
-							<label for="name" class="feedback__label"></label>
-							<input type="text"  id="name" class="feedback__input">
+				
+							<label for="name" class="feedback__label">
+								<p class="feedback__text">Имя</p>
+							</label>
+							<input required type="text" id="name" class="feedback__input">
 
-							<p class="feedback__text">Телефон</p>
-							<label for="tel" class="feedback__label"></label>
-							<input type="tel" id="tel" class="feedback__input">
+							
+							<label for="tel" class="feedback__label">
+								<p class="feedback__text">Телефон</p>
+							</label>
+							<input required type="tel" id="tel" class="feedback__input">
 
 							<p class="feedback__text">Документы</p>
 							<label for="file" class="feedback__label-file">
@@ -282,19 +301,48 @@
 									<p class="feedback__info-text feedback__info-text-city">г.Гродно</p>
 									<p class="feedback__info-text feedback__info-text-email">taxo.by@.com</p>
 									<p class="feedback__info-text feedback__info-text-tel">+375 (29) 234 27 32</p>
-		
 								<input type="submit" class="feedback__btn" value="Отправить">
 		
 						
 						</div>
 					</div>
-				</form>
 
 				<div class="feedback__img-right">
 					<img src="img/feedback/man-feed_back-right.svg" alt="">
 				</div>
+
+				</form>
 		</div>
 	</section>
+
+	<!-- footer -->
+
+	<footer class="footer">
+		<div class="container">
+
+			<div class="line"></div>
+
+			<div class="footer__wrap">
+				<div class="footer__left">
+					<div class="logo"><a href="#"> <img src="img/Taxo..svg" alt="logo"> </a></div>
+					<p class="footer__copyright">Copyright &copy;2020 Все права защищены</p>
+				</div>
+
+				<div class="footer__social">
+					<div><a href="" class="footer__social-icon"><img src="img/icon/footer/Icon awesome-twitter.svg" alt=""></a></div>
+					<div>					
+					<a href="" class="footer__social-icon"><img src="img/icon/footer/Icon ionic-logo-vk.svg" alt=""></a>
+					</div>	
+					<div>	<a href="" class="footer__social-icon"><img src="img/icon/footer/Icon awesome-instagram.svg" alt=""></a></div>
+					<div><a href="" class="footer__social-icon"><img src="img/icon/footer/Icon awesome-youtube.svg" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.js">
+	
+	</script>
 
 </body> 
 </html> 

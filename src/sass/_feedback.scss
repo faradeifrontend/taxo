@@ -11,21 +11,22 @@
 		color: #000000;
 		margin-bottom: 45px;
 	}
+	&__form {
+		display: flex;
+		justify-content: center;
+	}
 	&__img{
 		&-left{
-			display: flex;
+
 		}
 		&-right{
 			align-items: flex-end;
 			display: flex;
+			margin-left: 35px;
 		}
-	}
-	&__wrap {
-		display: flex;
 	}
 	&__top{
 		display: flex;
-		justify-content: space-between;
 		margin-left: 30px;
 	}
 	&__text {
@@ -41,6 +42,13 @@
 		border-radius: 5px;
 		border: solid 1px #eeeeee;
 		margin-bottom: 20px;
+		padding: 10px;
+		font-family: OpenSans;
+		font-size: 14px;
+		color: #4d4c4c;
+		&:focus {
+			outline-color: #ffcf2d;
+		}
 	}
 	&__label{
 		&-file {
@@ -75,6 +83,7 @@
 			font-weight: 600;
 			color: #000000;
 			margin-bottom: 20px;
+			margin-left: -30px;
 		}
 		&-text{
 			font-family: Montserrat;
@@ -125,5 +134,40 @@
 		font-style: normal;
 		text-align: center;
 		color: #282828;
+		margin-left: -30px;
+		cursor: pointer;
 	}
+}
+
+
+@media (max-width: 768px) {
+	.feedback {
+		&__img{
+			&-left{
+				display: none;
+			}
+			&-right{
+				display: none;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 524px) {
+	.feedback {
+		&__top {
+			flex-direction: column;
+		}
+		&__label{
+			&-file {
+				display: block;
+				margin: 20px auto;
+			}
+		}
+		&__btn {
+			margin-top: 40px;
+		}
+	}
+
 }

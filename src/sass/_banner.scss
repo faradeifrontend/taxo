@@ -1,7 +1,7 @@
 /*_banner.scss*/
 
 .banner {
-	margin-bottom: 200px;
+	padding-bottom: 200px;
 }
 .banner__block {
 	height: 353px;
@@ -11,7 +11,6 @@
 	display: flex;
 	justify-content: space-between;
 	&-tittle {
-		width: 84px;
 		height: 25px;
 		margin: 10px 0 20px 0;
 		font-family: Montserrat;
@@ -22,10 +21,68 @@
 			}
 	&-text {
 		width: 259px;
-		height: 103px;
+		min-height: 103px;
 		font-family: OpenSans;
 		font-size: 14px;
 		line-height: 1.5;
 		color: #6d6d6d;
 			}
 		}
+
+
+ @media (max-width: 992px) {
+ 	.banner {
+ 		padding-bottom: 80px;
+ 	&__block {
+ 		&-tittle {
+ 			font-size: 16px;
+ 				}
+ 		&-text {
+ 			width: 200px;
+ 			margin-right: 10px;
+ 			font-size: 14px;
+ 				}
+ 			}
+ }
+}
+
+ @media (max-width: 768px) {
+ 	.banner {
+ 	&__block {
+ 		&-tittle {
+ 			font-size: 16px;
+ 				}
+ 		&-text {
+ 			width: 170px;
+ 			margin-right: 30px;
+ 			font-size: 14px;
+ 			&:last-child {
+ 				margin-right: 0;
+ 				}
+ 			}
+ 			}
+ }
+}
+
+ @media (max-width: 610px) {
+ 	.banner {
+ 	&__block {
+ 		padding: 44px 70px;
+ 		flex-direction: column;
+ 		align-items: center;
+ 		height: 100%;
+ 		&-item {
+ 			text-align: center;
+ 		}
+ 		&-text {
+ 			width: 170px;
+ 			margin-right: 30px;
+ 			font-size: 14px;
+ 			&:last-child {
+ 				margin-right: 0;
+ 				margin-bottom: 25px;
+ 				}
+ 			}
+ 			}
+ }
+}
